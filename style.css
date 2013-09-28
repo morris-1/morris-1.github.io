@@ -35,6 +35,8 @@ h1 {		     /* This styles the header at the top of the page */
 	text-align: left;
 	padding: 0;
 	color: #cc0000;
+	border: 2px solid #cc0000;
+	padding: 10px;
 }
 
 h2 {		     /* This styles the headers within the page */
@@ -49,7 +51,9 @@ div.section {
 	padding: 1em;
 	margin-bottom: 0;
 	text-align: justify;
-
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
@@ -85,3 +89,6 @@ div.section {
 	margin-right: 1em;
 }
 
+.minileft img {
+	border: 2px solid #cc0000;
+}
